@@ -158,7 +158,7 @@ app.delete("/api/parties/:id", (req, res) => {
       });
     } else {
       res.json({
-        message: "deleted",
+        message: "CUT!!!!",
         changes: result.affectedRows,
         id: req.params.id,
       });
@@ -188,7 +188,7 @@ app.put("/api/candidates/:id", (req, res) => {
       });
     } else {
       res.json({
-        message: "success",
+        message: "Hallelujah!",
         data: req.body,
         changes: result.affectedRows,
       });
